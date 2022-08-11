@@ -20,6 +20,7 @@ function App() {
 
   const createPDF = () => {
     doc.text(15, 20, details, { maxWidth: 180 });
+    console.log('Done')
     doc.save("a4.pdf");
   }
 
